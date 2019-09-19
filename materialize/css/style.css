@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+.brand-logo >img {
+	width: 50px;
+	height: 50px;
+	margin-top: 5px;
+}
+/* Menu - profile */
+.bg-card-user {
+	background: rgba(147, 222, 209, 0.5);
+	padding: 15px 0;
+}
+.truncate >img {
+	width: 180px;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+/* FOOTER */
+footer .foot-text {
+	margin-top: 10px;
+}
+
+/* LOGIN */
+.logueo {/* PARALLAX */
+    height

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="../Agregar_curso/form.css">
+<style >
+	.login-box input{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+</style>
+	<title>Agregar profesor</title>
+</head>
+<body class="fromu1">
+
+
+				 <div class="login-box " style="padding: 51px 22px; padding-bottom: 14px">
+	<img src="/proyecto/logeo/img/logo2.png" class="avatar" alt="">
+<h1>AGREGAR PROFESOR</h1>
+	<form action="profesor_guardar.php" method="POST">
+		<label>DNI:</label>
+		<input type="text" required name="dni" placeholder="dni..." value=""/>
+
+			<label style="padding: 0px">nombre:</label>
+		<input type="text" required name="nombres" placeholder="nombres..." value=""/>
+
+		<label>Apellidos:</label>
+		<input type="text" required name="apellidos" placeholder="apellidos..." value=""/>
+
+			<label>edad:</label>
+		<input type="text" required name="direccion" placeholder="edad..." value=""/>
+		<label>cargo:</label>
+		<input type="text" required name="telefono" placeholder="cargo..." value=""/>
+		<label>Gmail:</label>
+		<input type="text" required name="email" placeholder="email..." value=""/>
+		<input type="submit" value="Aceptar" />
+	</form>
+	</div>
+</center>
+</body>
+</html>
